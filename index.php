@@ -1,22 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<, initial-scale=1.0">
-    <title>Document</title>
+    <title>Demo</title>
 </head>
 <body>
+
     <h1>
         <?php
-            "World";$greeting = "Hello";
-            echo $greeting . " " . 
+            $greeting = "Hello";
+            $noun = "World";
+
+            echo "$greeting $noun" . "!"
+        ?> 
+    </h1>
+
+</body>
+</html>
+index.php
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+</head>
+<body>
+
+    <h1>
+        <?php
+            $greeting = "Hello";
+
+            echo "$greeting Everybody!"
         ?>
     </h1>
-    <p>
-    <?php
-        echo "This text was written using PHP in my PHP learning path"
-        ?>
-    </p>
+
 </body>
 </html>
